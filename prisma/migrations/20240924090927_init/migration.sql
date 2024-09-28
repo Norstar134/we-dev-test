@@ -7,5 +7,6 @@ CREATE TABLE "Vehicle" (
     "fuel_type" TEXT NOT NULL,
     "mileage" INTEGER NOT NULL,
     "transmission" TEXT NOT NULL,
-    "price" REAL NOT NULL
+    "price" REAL NOT NULL,
+    "url_image" TEXT NOT NULL
 );
