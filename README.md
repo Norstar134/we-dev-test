@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 You will need to fork and then pull this to a new folder to run as npm run dev.
-The .env file is empty other than the database url, which has been sent in the email to protect it, you will need to paste the URL in the quotation marks.
+The .env file is empty other than the database url, which has been sent in a new email to protect it, you will need to paste the URL in the quotation marks within the .env.
 This should run on npm run dev once pulled, if not, please let me know.
 I did try and deploy it, however, due to a lack of time I haven't been able to.
 
