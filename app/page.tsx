@@ -4,11 +4,13 @@ import Link from "next/link";
 
 const prisma = new PrismaClient()
 //didn't use the api calls due to learning Prisma as I went, which I struggled with. I know it is not optimal to do.
-export async function getVehicles(){
-	const vehicles = await prisma.vehicle.findMany();
-	return vehicles;
-}
+
 export default async function Home() {
+
+	const getVehicles = async() => {
+		const res = await fetch ('http://localhost:3000/api/vehicles')
+		return res.json()
+	}
 	const vehicles = await getVehicles();
 
 	return (

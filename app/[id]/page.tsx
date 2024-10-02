@@ -8,7 +8,7 @@ interface VehiclePageProps {
     }
 }
 
-//again, due to learning prisma at the same time, I have not used the api supplied. I know it's not optimal or secure.
+//due to learning prisma at the same time, I have not used the api supplied. I know it's not optimal or secure.
 export default async function VehicleInfo({ 
     params: { id } } : VehiclePageProps
 ) {
